@@ -1,0 +1,373 @@
+/*....... Log In.............*/
+.login {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.login-icon {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.lock-icon-size {
+    font-size: 18px;
+}
+
+.button.loginbtn {
+    color: #0d084b;
+    border-radius: 8px;
+    width: 150px;
+}
+
+.card-radius {
+    border-radius: 8px;
+}
+
+.list {
+    background-image: none;
+}
+
+.list-item--material.list-item--longdivider {
+    background-image: linear-gradient(0deg, #eee, #eee 100%);
+}
+
+.list-item--longdivider {
+    background-image: linear-gradient(0deg, #ccc, #ccc 100%);
+}
+
+.popover__content {
+    width: 150px;
+    border-radius: 0px;
+    background-color: #969696;
+    float: right;
+}
+
+.pop-top .popover--top {
+    top: 0 !important;
+    right: 0px !important;
+}
+
+.popover-mask {
+    background-color: rgba(0, 0, 0, 0)
+}
+/*....... Dashboard.............*/
+
+.dashboard-page-container {
+    margin: 0 auto;
+    padding: 15px;
+    display: block;
+    margin-top: 30px;
+}
+
+.planReport, .support-section {
+    width: 200px;
+    padding: 10px 0px 0px 0px;
+    background-color: #eee;
+    margin: 0 auto;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+}
+
+.support-section {
+    margin-top: 10px;
+}
+
+ons-fab.fab.planReport-fab, ons-fab.fab.support-fab {
+    background: #0076ff;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    line-height: 68px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    color: #fff;
+}
+
+.planReport-text, .support-text {
+    color: #424242;
+    text-align: center;
+    padding: 10px;
+}
+
+.login .list-item__left {
+    min-width: 56px;
+}
+
+/*....... Plan and Reports.............*/
+
+.search {
+    margin: 0 auto;
+    overflow: hidden;
+    display: block;
+    width: 200px;
+    margin-top: 20px;
+    margin-right: 8px;
+}
+
+.search-input--material {
+    border-radius: 5.5px;
+    height: 28px;
+    background-size: 13px;
+    background-position: 8px center;
+    padding: 0 8px 0 28px;
+}
+
+.plan-card {
+    margin-top: 20px;
+}
+
+.report-card {
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+/*....... Report Landing Page.............*/
+
+ons-fab.fab.cancel-fab {
+    background: darkgray;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    margin-right: 8px;
+    margin-top: 7px;
+    color: #fff;
+}
+
+.toolbar--material__right {
+    min-width: 28px;
+}
+
+ons-fab.fab.cancel-fab.toolbar--material__right {
+    margin-top: 10px;
+}
+
+.submit-cancel {
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    padding: 12px 8px 12px 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+.submitBtn.button {
+    background-color: #25a6d9;
+    float: right;
+}
+
+.cancelBtn {
+    background-color: #D68600;
+    float: right;
+    margin: 8px;
+}
+
+.report-des {
+    padding: 10px 10px 4px 8px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.report-des p {
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+
+.report-label {
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+}
+
+.report-text {
+    display: inline-block;
+    width: 65%;
+    line-height: 20px;
+    padding-left: 7px;
+}
+
+.heading-title.list-header {
+    font-size: 16px;
+    text-transform: capitalize;
+    padding-bottom: 4px;
+}
+
+.report-align {
+    margin-bottom: 10px;
+}
+
+/*....... Member .............*/
+
+.heading-title.list-header {
+    padding: 8px 16px;
+}
+
+.next-button.button {
+    background-color: #b2beb5;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.button:active {
+    background-color: #b2beb5;
+    transition: none;
+    opacity: 0.2;
+}
+
+/*...........*/
+
+.ipdc-logo {
+    width: 100%;
+}
+
+.login-logo {
+    margin-top: 50px;
+}
+
+.profile-pic {
+    width: 200px;
+    background-color: #fff;
+    margin: 20px auto 10px;
+    border-radius: 4px;
+}
+
+.profile-pic>img {
+    display: block;
+    max-width: 100%;
+}
+
+.input-field {
+    margin: 0;
+    width: 100%;
+}
+
+.submit-align {
+    float: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: blue;
+}
+
+.cancel-align {
+    float: right;
+    padding-top: 5px;
+    padding-right: 10px;
+    color: blue;
+}
+
+.card-title {
+    font-size: 18px;
+}
+
+.list-item--material__center {
+    padding-right: 0px;
+    background-image: none;
+}
+
+.card--material__content {
+    line-height: 0.8;
+}
+
+.text-input--material:focus {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 1px, rgb(175, 175, 175) 1px);
+    animation: unset;
+}
+
+ons-list-item {
+    color: #444;
+}
+
+.dashboard-icon {
+    min-width: 15px;
+}
+
+.saveBtn {
+    text-align: center;
+}
+
+.saveBtn i {
+    font-size: 32px;
+    color: #969696;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.report-status {
+    line-height: 0.8em;
+    min-height: 33px;
+}
+
+.list-item .list-item__center {
+    background-image: none;
+}
+
+.list-border {
+    border-bottom: 1px solid gainsboro;
+}
+
+.support {
+    width: 50%;
+    height: 80px;
+    background-image: url(ar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+}
+
+.navIcon {
+    color: #b2beb5;
+}
+
+ons-fab.fab.user-fab {
+    background: darkgray;
+    width: 30px;
+    height: 30px;
+    font-size: 28px;
+    line-height: normal;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    margin-right: 8px;
+    margin-top: 7px;
+    color: #fff;
+}
+
+ons-fab.fab.user-icon {
+    background: darkgray;
+    width: 30px;
+    height: 30px;
+    line-height: normal;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    margin-right: 8px;
+    margin-top: 7px;
+}
+
+.user-img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.hide {
+    display: none !important;
+}
